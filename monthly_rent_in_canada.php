@@ -7,7 +7,7 @@
 
 <?php
     $file = fopen("housing_data.csv","r");
-	 	$toronto = array();
+	  $toronto = array();
   	$vancouver = array();
   	$winnipeg = array();
   	$regina = array();
