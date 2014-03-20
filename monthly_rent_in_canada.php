@@ -5,6 +5,7 @@
 	<script type="text/javascript" src="nhpup_1.1.js"></script>
 	<link href="style.css" rel="stylesheet" type="text/css">
 
+	<!-- Loading & storing data -->
 	<?php
     	$file = fopen("housing_data.csv","r");
 	$toronto = array();
@@ -51,6 +52,7 @@
 	?>
 
 	<script>
+	// Transfer the data to JavaScript arrays using JSON
     	var toronto = <?php echo json_encode($toronto); ?>;
     	var vancouver = <?php echo json_encode($vancouver); ?>;
     	var winnipeg = <?php echo json_encode($winnipeg); ?>;
