@@ -7,8 +7,8 @@
 
 	<!-- Loading & storing data -->
 	<?php
-    	$file = fopen("housing_data.csv","r");
-	$toronto = array();
+    $file = fopen("housing_data.csv","r");
+	  $toronto = array();
   	$vancouver = array();
   	$winnipeg = array();
   	$regina = array();
@@ -215,6 +215,10 @@
 		nhpup.popup($('#hidden-table').html(), {'width': 600});
 				
 	}
+
+  function hide_table() {
+    document.getElementById("hidden-table").innerHTML = "";
+  }
 	</script>
 </head>
 
@@ -235,7 +239,7 @@
 	</div>
 	<div id="hidden-table" style="display:none;">
 	</div>
-	<img src="blm_1_map_of_canada_11x17.jpg" height="900" width="1600">
+	<img onmouseover="hide_table()" src="blm_1_map_of_canada_11x17.jpg" height="900" width="1600">
 	<nav>
 		<ul>
     			<a href="monthly_rent_in_canada.php"><li>Row and apartment structures of three units and over<li></a>
