@@ -10,3 +10,75 @@
   color: white;
   font-size: 0.95em;
 }
+
+#toronto {
+  position: absolute;
+  top: 800px;
+  left: 975px;
+}
+
+#vancouver {
+  position: absolute;
+  top: 610px;
+  left: 215px;
+}
+
+#winnipeg {
+  position: absolute;
+  top: 710px;
+  left: 640px;
+}
+
+#regina {
+  position: absolute;
+  top: 685px;
+  left: 530px;
+}
+
+#stjohns {
+  position: absolute;
+  top: 575px;
+  left: 1370px;
+}
+
+#charlottetown {
+  position: absolute;
+  top: 670px;
+  left: 1230px;
+}
+
+#halifax {
+  position: absolute;
+  top: 700px;
+  left: 1240px;
+}
+
+#fredericton {
+  position: absolute;  
+  top: 690px;  
+  left: 1185px;
+}
+
+#montreal {
+  position: absolute;
+  top: 740px;
+  left: 1055px;
+}
+
+#edmonton {
+  position: absolute;
+  top: 590px;
+  left: 405px;
+}
+
+#calgary {
+  position: absolute;
+  top: 635px;
+  left: 375px;
+}
+
+#yellowknife {
+  position: absolute;
+  top: 410px;
+  left: 470px;
+}
