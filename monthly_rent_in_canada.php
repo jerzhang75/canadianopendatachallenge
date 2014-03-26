@@ -4,6 +4,8 @@
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript" src="nhpup_1.1.js"></script>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Monthly Rent Prices (Canada)</title>
+  <h1>Monthly Rent in Canada</h1>
 
   <!-- Loading & storing data -->
   <?php
