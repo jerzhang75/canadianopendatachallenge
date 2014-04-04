@@ -34,31 +34,31 @@
     $calgary = array();
     $yellowknife = array();
     while(! feof($file)) {
-        $hi = fgetcsv($file);
-        if ($hi[1] == "Toronto, Ontario") { 
-            $toronto[] = $hi[2];
-        } elseif ($hi[1] == "Vancouver, British Columbia") {
-            $vancouver[] = $hi[2];
-        } elseif ($hi[1] == "Winnipeg, Manitoba") {
-            $winnipeg[] = $hi[2];
-        } elseif ($hi[1] == "Regina, Saskatchewan") {
-            $regina[] = $hi[2];
-        } elseif ($hi[1] == "St. John's, Newfoundland and Labrador") {
-            $stjohns[] = $hi[2];
-        } elseif ($hi[1] == "Charlottetown, Prince Edward Island") {
-            $charlottetown[] = $hi[2];
-        } elseif ($hi[1] == "Halifax, Nova Scotia") {
-            $halifax[] = $hi[2];
-        } elseif ($hi[1] == "Fredericton, New Brunswick") {
-            $fredericton[] = $hi[2];
-        } elseif ($hi[1] == "Montreal, Quebec") {
-            $montreal[] = $hi[2];
-        } elseif ($hi[1] == "Edmonton, Alberta") {
-            $edmonton[] = $hi[2];
-        } elseif ($hi[1] == "Calgary, Alberta") {
-            $calgary[] = $hi[2];
-        } elseif ($hi[1] == "Yellowknife, Northwest Territories") {
-            $yellowknife[] = $hi[2];
+        $l = fgetcsv($file);
+        if ($l[1] == "Toronto, Ontario") { 
+            $toronto[] = $l[2];
+        } elseif ($l[1] == "Vancouver, British Columbia") {
+            $vancouver[] = $l[2];
+        } elseif ($l[1] == "Winnipeg, Manitoba") {
+            $winnipeg[] = $l[2];
+        } elseif ($l[1] == "Regina, Saskatchewan") {
+            $regina[] = $l[2];
+        } elseif ($l[1] == "St. John's, Newfoundland and Labrador") {
+            $stjohns[] = $l[2];
+        } elseif ($l[1] == "Charlottetown, Prince Edward Island") {
+            $charlottetown[] = $l[2];
+        } elseif ($l[1] == "Halifax, Nova Scotia") {
+            $halifax[] = $l[2];
+        } elseif ($l[1] == "Fredericton, New Brunswick") {
+            $fredericton[] = $l[2];
+        } elseif ($l[1] == "Montreal, Quebec") {
+            $montreal[] = $l[2];
+        } elseif ($l[1] == "Edmonton, Alberta") {
+            $edmonton[] = $l[2];
+        } elseif ($l[1] == "Calgary, Alberta") {
+            $calgary[] = $l[2];
+        } elseif ($l[1] == "Yellowknife, Northwest Territories") {
+            $yellowknife[] = $l[2];
         }
     }
     fclose($file);
